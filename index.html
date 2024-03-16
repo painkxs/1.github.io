@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portafolio</title>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jack</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a> </li>
+                    <li><a href="#sobremi">Sobre mi</a> </li>
+                    <li><a href="#portfolio">Portafolio</a> </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>    
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/yo.jpg" alt="">
+            </div>
+            <h1> JACK FERNANDEZ</h1>
+            <H2>INGENIERO EN SISTEMAS</H2>
+            <div class="redes">
+                <a href="https://www.facebook.com/jack.fernandez.52?locale=es_LA"><i class="fa-brands fa-facebook-f"></i> </a>
+                <a href="https://twitter.com/Jackfreecss"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.twitch.tv/jackfreecss"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://account.xbox.com/es-mx/Profile?xr=mebarnav&rtc=1&csrf=3t1D2hdglg276mjsa8sWBIHnvxHec3tytw7PgFO1kZQPiUqZAuJ6qa6R6CmR8GjacSFdIuoYyH74l7Byp3DLITSgyiQ1&wa=wsignin1.0"><i class="fa-brands fa-xbox"></i></a>
+            </div>
+        </div>    
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jack Fernandez.</span> Soy un aficinado de la programacion poniendo enfasis en los lenguajes java,c,c++ me encanta uar html y css ,pongo mucho entusiasmo a todo lo que hago y me esfuerzo al maximo cuando quiero algo </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-09-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            55-74-62-65-34
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jacob.halo3@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.jacob.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            AV cuahutemoc 762 int 201
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-brands fa-xbox"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>AUDIFONOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>CORRER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>COMPUS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mobile"></i>
+                            <span>CELULAR</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 162959.png" alt="">
+                    <div class="overlay">
+                        <h3>Menu Interactivo</h3>
+                        <p>Html,Css,Java</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163431.png" alt="">
+                    <div class="overlay">
+                        <h3>Divicion de pantalla</h3>
+                        <p>Html,Css,Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163645.png" alt="">
+                    <div class="overlay">
+                        <h3>Carrusel</h3>
+                        <p>Html,Css,Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163706.png" alt="">
+                    <div class="overlay">
+                        <h3>Carrusel</h3>
+                        <p>Html,Css,Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="Imagenes/PORTAFOLIO/Captura de pantalla 2024-02-18 163725.png" alt="">
+                    <div class="overlay">
+                        <h3>Menu de navegacion</h3>
+                        <p>Html, Css</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/jack.fernandez.52?locale=es_LA"><i class="fa-brands fa-facebook-f"></i> </a>
+            <a href="https://twitter.com/Jackfreecss"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.twitch.tv/jackfreecss"><i class="fa-brands fa-twitch"></i></a>
+            <a href="https://account.xbox.com/es-mx/Profile?xr=mebarnav&rtc=1&csrf=3t1D2hdglg276mjsa8sWBIHnvxHec3tytw7PgFO1kZQPiUqZAuJ6qa6R6CmR8GjacSFdIuoYyH74l7Byp3DLITSgyiQ1&wa=wsignin1.0"><i class="fa-brands fa-xbox"></i></a>
+        </div>
+    </footer>
+    
+    
+    <script src="j.js"></script>
+    
+</body>
+</html>
